@@ -1,7 +1,7 @@
 # Legaltech
-Hackhaton Legal Tech - ICAI/Centro Garrigues 
+Hackathon Legal Tech - ICAI/Centro Garrigues 
 
-#Objetivo
+# Objetivo
 El objetivo principal es evaluar la capacidad de un LLM para comprender preguntas reales de la prueba de acceso a la abogacía, responder de manera correcta y proporcionar una justificación que permita descartar que el acierto se ha producido por azar o por memorización. Esta evaluación aplicará a preguntas del examen de acceso a la abogacía, en sus cuatro modalidades (Civil, Penal, Administrativo, y Laboral) permitiendo concluir si este tipo de inteligencias generativas son capaces de interpretar preguntas y proponer respuestas argumentadas hasta el punto de superar con éxito la prueba de acceso. Por lo tanto, con este Hackathon aspiramos a explorar el potencial de los LLM como herramientas de apoyo en la educación y práctica legal, al mismo tiempo que identificamos áreas para su mejora.
 
 # Examen de Acceso a la Abogacía
