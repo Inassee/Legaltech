@@ -33,3 +33,6 @@ setx OPENAI_API_KEY "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"
 ```
 
 El modelo produce respuestas seleccionando la opción correcta de múltiples opciones y proporcionando una justificación que se puede ver en un archivo.txt. 
+
+
+###### Participantes: Mónica López de Paz, Antonio Luis Gómez Arroyo, Irene Hernandez Carrera, Marta Ramos Riccitelli, Inasse Tyouss
