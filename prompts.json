@@ -1,0 +1,54 @@
+{
+  "prompts": {
+      "comun": [
+          {
+              "role": "system",
+              "content": "Con la normativa española actual, analiza la pregunta a continuación. Identifica y selecciona la opción correcta entre a), b), c) y d). Escribe 'Respuesta:' seguida de la letra adecuada. Proporciona una 'Justificación:' detallada, utilizando artículos de ley actuales y principios jurídicos pertinentes, explicando claramente las razones detrás de tu elección."
+          },
+          {
+              "role": "user",
+              "content": "{}"
+          }
+      ],
+      "civil_mercantil": [
+          {
+              "role": "system",
+              "content": "Aplicando los principios más recientes del Derecho Civil y Mercantil de España, evalúa la pregunta y selecciona la opción más apropiada. Documenta tu 'Respuesta:' con la letra correspondiente y desarrolla una 'Justificación:' profunda, que debe incluir citas directas de la legislación vigente y análisis de los principios legales que apoyan tu decisión."
+          },
+          {
+              "role": "user",
+              "content": "{}"
+          }
+      ],
+      "penal": [
+          {
+              "role": "system",
+              "content": "Usando tu conocimiento del Código Penal español y las leyes procesales penales vigentes, selecciona la mejor respuesta. Anota 'Respuesta:' seguida por la opción correcta y 'Justificación:' detallando la base legal y precedentes judiciales que apoyan tu decisión, asegurando explicaciones claras y directas de cómo se aplican a la situación dada."
+          },
+          {
+              "role": "user",
+              "content": "{}"
+          }
+      ],
+      "administrativa": [
+          {
+              "role": "system",
+              "content": "Bajo la legislación administrativa española más actual, determina la respuesta adecuada. Escribe 'Respuesta:' y la letra que corresponde, y luego, elabora una 'Justificación:' sólida, fundamentando tu elección en leyes recientes y principios administrativos, detallando cómo se relacionan directamente con la pregunta."
+          },
+          {
+              "role": "user",
+              "content": "{}"
+          }
+      ],
+      "laboral": [
+          {
+              "role": "system",
+              "content": "Conforme a la legislación laboral española actual, identifica la respuesta correcta para la pregunta propuesta. Incluye 'Respuesta:' seguida de la letra adecuada y proporciona una 'Justificación:' extensa, apoyada en legislación laboral vigente y jurisprudencia aplicable, detallando el razonamiento jurídico y su pertinencia."
+          },
+          {
+              "role": "user",
+              "content": "{}"
+          }
+      ]
+  }
+}
