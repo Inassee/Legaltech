@@ -1,6 +1,6 @@
-# 2ª Edición del Hackathon Legaltech - Comillas-Centro de Estudios Garrigues
+# 2ª Edición del Hackathon Legaltech - Comillas-Centro de Estudios Garrigues - Documentación 
 
-# Documentación 
+
 
 # Objetivo
 El propósito principal del hackathon fue explorar el potencial de los LLM como herramientas de apoyo en la educación y práctica legal, identificando áreas de mejora y optimización. Para lograr esto, evaluamos la capacidad del modelo para interpretar preguntas del examen y proporcionar respuestas argumentadas, utilizando un modelo de lenguaje finamente ajustado (fine-tuned) con preguntas del examen.
@@ -10,14 +10,14 @@ El propósito principal del hackathon fue explorar el potencial de los LLM como 
 ## 1. Creación del dataset
 Para entrenar y evaluar el modelo, construimos un dataset basado en preguntas y respuestas de antiguas convocatorias del examen de acceso a la abogacía, compuesto por 87 preguntas. 
 
-Inicialmente, recopilamos y organizamos las preguntas y respuestas en un archivo excel, lo que nos permitió estructurar nuestros datos de manera clara. El formato incluía las siguientes columnas: prompts, categoría, pregunta, opciones de respuesta, la respuesta correcta y la justificación correspondiente. Cada prompt está diseñada para abordar una categoría particular del examen, para que el modelo genere respuestas pertinentes a la categoría específica de la pregunta (prompts.json).
+Inicialmente, recopilamos y organizamos las preguntas y respuestas en un archivo excel, lo que nos permitió estructurar nuestros datos de manera clara. El formato incluía las siguientes columnas: prompts, categoría, pregunta, opciones de respuesta, la respuesta correcta y la justificación correspondiente. Cada [prompt](prompts.json) está diseñada para abordar una categoría particular del examen, para que el modelo genere respuestas pertinentes a la categoría específica de la pregunta.
 
 ## 2. Transformación del dataset
 Para que el modelo de OpenAI pudiera ser entrenado, convertimos el dataset de Excel a un formato JSONL (JSON Lines), el cual es recomendado por OpenAI para el fine-tuning debido a su eficiencia y simplicidad en el procesamiento de datos, ya que cada línea en el archivo JSONL representa una interacción completa de entrada y salida, facilitando tanto el entrenamiento como el procesamiento de los datos y su carga.
 
 Desarrollamos un script en python para automatizar esta conversión, asegurándonos de que cada interacción (pregunta y respuesta) estuviera correctamente formateada para el entrenamiento del modelo.
 
-**Ejemplo del formato JSONL resultante (formatted_dataset_for_finetuning.jsonl):**
+**[Ejemplo del formato JSONL resultante](formatted_dataset_for_finetuning.jsonl):**
 
 ```json
 {
